@@ -1,0 +1,39 @@
+body { margin: 0; padding: 0; font-family: 'Poppins', sans-serif; background-color: #fff; text-align: center; }
+
+/* Logo: Boşluklar azaltıldı */
+.logo-container { padding: 5px 0; } 
+.center-logo { height: 160px; width: auto; }
+
+/* Blc Ajans Başlık: Kapalı sarı ve ortalanmış */
+.yellow-title { color: #e6b800; font-size: 38px; margin: 10px 0 5px 0; font-weight: 700; }
+.hero p { margin-top: 5px; font-weight: 300; }
+
+/* Menü ve Hareketli Çizgiler */
+.navbar { padding: 5px 0; margin-bottom: 10px; }
+.rainbow-line-top, .rainbow-line-bottom { 
+    height: 4px; width: 100%; 
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 200% 100%;
+    animation: rainbow 2s linear infinite;
+}
+@keyframes rainbow { 0% { background-position: 0% 50%; } 100% { background-position: 100% 50%; } }
+
+.menu-list { list-style: none; display: flex; justify-content: center; gap: 30px; padding: 10px 0; margin: 0; }
+.menu-list li a { text-decoration: none; color: #333; font-weight: 400; font-size: 16px; transition: 0.3s; }
+.menu-list li a:hover { color: #ff3a5c; }
+
+/* Bölümler */
+.info-section, .contact-section { padding: 20px; }
+.info-section h2 { font-weight: 700; }
+.clean-list { list-style: none; padding: 0; line-height: 2.2; font-weight: 400; }
+
+/* Sosyal Medya */
+.insta-links-list { list-style: none; padding: 0; margin: 10px 0; }
+.insta-links-list li { margin: 8px 0; }
+.insta-links-list li a { text-decoration: none; color: #555; font-weight: 400; }
+.insta-links-list li a:hover { color: #e6b800; text-decoration: underline; }
+
+.whatsapp-btn { 
+    padding: 12px 25px; background: #25D366; color: #fff; 
+    text-decoration: none; border-radius: 30px; font-weight: 600; display: inline-block; 
+}
